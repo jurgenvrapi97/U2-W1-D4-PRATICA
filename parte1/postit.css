@@ -1,0 +1,61 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  display: flex;
+  min-height: 100vh;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-size: 3em;
+  margin-left: 20%;
+}
+
+p {
+  font-size: 2em;
+}
+
+#desk {
+  height: 700px;
+  background-color: rgb(132, 129, 129);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.post {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  width: 250px;
+  height: 250px;
+  color: black;
+  margin: 1em;
+  box-shadow: 7px 4px 10px 0px rgba(0, 0, 0, 0.329),
+    inset 0px -57px 16px -7px rgba(0, 0, 0, 0.1);
+  transition: transform 0.8s ease-in-out 0s;
+}
+
+.color-1 {
+  background-color: yellow;
+  transform: rotate(352deg);
+  z-index: 1;
+}
+.color-2 {
+  background-color: greenyellow;
+  transform: rotate(12deg);
+  z-index: 1;
+}
+.color-3 {
+  background-color: blueviolet;
+  transform: rotate(355deg);
+  z-index: 1;
+}
+
+.post:hover {
+  z-index: 2;
+  transform: scale(1.7);
+}
