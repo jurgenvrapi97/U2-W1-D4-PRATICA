@@ -47,7 +47,7 @@ main {
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
-  animation: caduta 5s linear infinite;
+  animation: caduta 5s linear;
 
   font-size: 24px;
 }
@@ -65,7 +65,7 @@ main {
   }
   80%,
   100% {
-    transform: translateY(100vh);
+    transform: translateY(100%);
     opacity: 0;
   }
 }
