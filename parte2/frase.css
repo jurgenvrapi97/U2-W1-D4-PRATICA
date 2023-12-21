@@ -41,18 +41,18 @@ main {
 }
 
 .parola {
-  width: 155px;
+  width: 300px;
   margin-left: 1px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
-  animation: fall 5s linear infinite;
+  animation: caduta 5s linear infinite;
 
   font-size: 24px;
 }
 
-@keyframes fall {
+@keyframes caduta {
   0%,
   20% {
     transform: translateY(-100%);
